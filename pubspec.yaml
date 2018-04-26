@@ -9,4 +9,6 @@ environment:
 
 dependencies:
   color: ">=2.0.2 <3.0.0"
+
+dev_dependencies:
   test: ">=0.12.34 < 1.0.0"
