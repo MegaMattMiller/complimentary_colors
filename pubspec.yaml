@@ -1,15 +1,12 @@
 name: complimentary_colors
 version: 0.0.1
-author: Matt Miller
-description: A package containing useful, reuseable classes that can be used in any Dart project.
+author: Matt Miller <matt@megamattmiller.com>
+description: A Dart package for finding complimentary colors.
 homepage: https://github.com/MegaMattMiller/complimentary_colors
 
 environment:
   sdk: any
 
 dependencies:
-  color: any
-  test: "^0.12.34"
-
-dev-dependencies:
-  
+  color: ">=2.0.2 <3.0.0"
+  test: ">=0.12.34 < 1.0.0"
