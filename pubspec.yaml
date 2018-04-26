@@ -1,5 +1,5 @@
 name: complimentary_colors
-version: 0.0.1
+version: 0.0.2
 author: Matt Miller <matt@megamattmiller.com>
 description: A Dart package for finding complimentary colors.
 homepage: https://github.com/MegaMattMiller/complimentary_colors
