@@ -15,4 +15,9 @@ class CalculateComplimentaryColor {
     HslColor newHslColor = new HslColor(newH, passedColor.s, passedColor.l);
     return newHslColor;
   }
+
+  static RgbColor fromRgb(RgbColor passedColor)
+  {
+    return fromHsl(passedColor.toHslColor()).toRgbColor();
+  }
 }

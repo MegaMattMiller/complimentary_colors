@@ -38,4 +38,16 @@ void main() {
     HslColor expectedHsl = new HslColor(90, 100, 100);
     expect(CalculateComplimentaryColor.fromHsl(givenHsl), equals(expectedHsl));
   });
+
+  test("CalculateComplimentaryColor.fromRgb(255, 0, 0)", () {
+    RgbColor givenRgb = new RgbColor(255, 0, 0);
+    RgbColor expectedRgb = new RgbColor(0, 255, 255);
+    expect(CalculateComplimentaryColor.fromRgb(givenRgb), equals(expectedRgb));
+  });
+
+  test("CalculateComplimentaryColor.fromRgb(170, 255, 121)", () {
+    RgbColor givenRgb = new RgbColor(170, 255, 121);
+    RgbColor expectedRgb = new RgbColor(206, 121, 255);
+    expect(CalculateComplimentaryColor.fromRgb(givenRgb), equals(expectedRgb));
+  });
 }
