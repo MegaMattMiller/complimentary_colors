@@ -1,4 +1,4 @@
-Complimentary Colors
+Complimentary Colors [![Build Status](https://travis-ci.org/MegaMattMiller/complimentary_colors.svg?branch=master)](https://travis-ci.org/MegaMattMiller/complimentary_colors)
 =====
 A Dart package for finding complimentary colors.
 
