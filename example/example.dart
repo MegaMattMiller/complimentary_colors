@@ -15,7 +15,7 @@ class Example {
         CalculateComplimentaryColor.fromHsl(givenHslColor);
 
     //Get the complimentary color of Rgb(255, 132, 91);
-    HslColor complimentaryRgbColor =
+    RgbColor complimentaryRgbColor =
         CalculateComplimentaryColor.fromRgb(givenRgbColor);
   }
 }
