@@ -21,7 +21,6 @@ void main() {
     expect(CalculateComplimentaryColor.fromHex(givenHex), equals(expectedHex));
   });
 
-
   test("CalculateComplimentaryColor.fromHsl(360, 100, 100)", () {
     HslColor givenHsl = new HslColor(360, 100, 100);
     HslColor expectedHsl = new HslColor(180, 100, 100);
