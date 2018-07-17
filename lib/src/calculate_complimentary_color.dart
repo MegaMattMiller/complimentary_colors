@@ -16,6 +16,7 @@ class CalculateComplimentaryColor {
     return newHslColor;
   }
 
+  /// Calculates the complimentary color of a given rgb value.
   static RgbColor fromRgb(RgbColor passedColor) {
     return fromHsl(passedColor.toHslColor()).toRgbColor();
   }

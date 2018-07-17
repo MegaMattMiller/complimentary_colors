@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * Added support for rgb colors.
+
+## 0.0.4
+
+* Slightly better documentation.
