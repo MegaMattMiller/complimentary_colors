@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * Slightly better documentation.
+
+## 0.0.5
+
+* Example useage now actually runs in pub.
