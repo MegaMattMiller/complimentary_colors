@@ -18,6 +18,6 @@
 
 * Example useage now actually runs in pub.
 
-## 0.0.6
+## 1.0.0
 
 * Added support for Dart 2.
