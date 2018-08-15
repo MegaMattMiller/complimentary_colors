@@ -17,3 +17,7 @@
 ## 0.0.5
 
 * Example useage now actually runs in pub.
+
+## 0.0.6
+
+* Added support for Dart 2.
