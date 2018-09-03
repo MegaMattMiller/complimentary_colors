@@ -37,3 +37,9 @@ To get the complimentary color of a hsl value
 HslColor givenColor = new HslColor(270, 100, 100);
 HslColor complimentaryColor = CalculateComplimentaryColor.fromHsl(givenColor)
 ```
+
+To get the complimentary color of a rgb value
+```dart
+RgbColor givenColor = new RgbColor(270, 100, 100);
+RgbColor complimentaryColor = CalculateComplimentaryColor.fromRgb(givenColor)
+```

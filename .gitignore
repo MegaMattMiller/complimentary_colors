@@ -12,3 +12,4 @@ pubspec.lock
 doc/api/
 
 *.code-workspace
+.dart_tool/*
