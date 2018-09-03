@@ -21,3 +21,7 @@
 ## 1.0.0
 
 * Added support for Dart 2.
+
+## 1.0.1
+
+* Fixed dependency issues.
