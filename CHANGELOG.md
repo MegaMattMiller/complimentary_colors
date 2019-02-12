@@ -25,3 +25,7 @@
 ## 1.0.1
 
 * Fixed dependency issues.
+
+## 1.0.2
+
+* Updated dependencies.
