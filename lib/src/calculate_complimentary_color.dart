@@ -10,9 +10,9 @@ class CalculateComplimentaryColor {
 
   /// Calculates the complimentary color of a given hsl value.
   static HslColor fromHsl(HslColor passedColor) {
-    num newH = passedColor.h + 180;
+    var newH = passedColor.h + 180;
     if (newH > 360) newH -= 360;
-    HslColor newHslColor = new HslColor(newH, passedColor.s, passedColor.l);
+    var newHslColor = HslColor(newH, passedColor.s, passedColor.l);
     return newHslColor;
   }
 

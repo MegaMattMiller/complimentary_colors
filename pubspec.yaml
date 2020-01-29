@@ -1,6 +1,5 @@
 name: complimentary_colors
-version: 1.0.2
-author: Matt Miller <matt@megamattmiller.com>
+version: 1.0.3
 description: An easy to use Dart package for calculating complimentary colors.
 homepage: https://github.com/MegaMattMiller/complimentary_colors
 
@@ -11,4 +10,5 @@ dependencies:
   color: ^2.1.1
 
 dev_dependencies:
-  test: ^1.5.3
+  test: ^1.11.1
+  pedantic: ^1.9.0

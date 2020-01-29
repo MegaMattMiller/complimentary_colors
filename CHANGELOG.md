@@ -29,3 +29,7 @@
 ## 1.0.2
 
 * Updated dependencies.
+
+## 1.0.3
+
+* Housekeeping for Dart 2.7.0.
